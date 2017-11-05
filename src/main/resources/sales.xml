@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sales currency="real" xsi:noNamespaceSchemaLocation="sales-form.xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<paymentForm>Debit</paymentForm>
+	<products>
+		<product>
+			<name>Xml book</name>
+			<price>29.00</price>
+		</product>
+		<product>
+			<name>Java book</name>
+			<price>19.00</price>
+		</product>
+		<product>
+			<name>Spring book</name>
+			<price>23.00</price>
+		</product>
+	</products>
+</sales>
