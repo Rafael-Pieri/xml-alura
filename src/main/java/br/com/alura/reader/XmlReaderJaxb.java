@@ -44,5 +44,4 @@ public class XmlReaderJaxb {
 
 		return (Sale) unmarshaller.unmarshal(new File("src/main/resources/sales.xml"));
 	}
-
 }

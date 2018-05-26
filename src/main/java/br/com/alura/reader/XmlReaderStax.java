@@ -16,7 +16,6 @@ import br.com.alura.model.Product;
 public class XmlReaderStax {
 
 	public List<Product> getProducts() throws XMLStreamException, FactoryConfigurationError, FileNotFoundException {
-
 		XMLEventReader events = XMLInputFactory.newInstance().createXMLEventReader(new FileInputStream("src/main/resources/sales.xml"));
 
 		List<Product> products = new ArrayList<>();
@@ -34,7 +33,6 @@ public class XmlReaderStax {
 	}
 
 	private Product getProduct(XMLEventReader events) throws XMLStreamException {
-
 		Product product = new Product();
 
 		while (events.hasNext()) {
@@ -55,10 +53,8 @@ public class XmlReaderStax {
 				Double price = Double.parseDouble(event.asCharacters().getData());
 				product.setPrice(price);
 			}
-
 		}
 
 		return product;
 	}
-
 }

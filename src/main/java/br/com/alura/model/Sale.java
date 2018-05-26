@@ -18,17 +18,11 @@ public class Sale {
 	@XmlElement(name = "product")
 	private List<Product> products;
 
-	public Sale() {
-
-	}
+	public Sale() {}
 	
 	public Sale(String paymentForm, List<Product> products) {
 		this.paymentForm = paymentForm;
 		this.products = products;
-	}
-
-	public String getPaymentForm() {
-		return paymentForm;
 	}
 
 	public void setPaymentForm(String paymentForm) {
@@ -67,16 +61,12 @@ public class Sale {
 		} else if (!paymentForm.equals(other.paymentForm))
 			return false;
 		if (products == null) {
-			if (other.products != null)
-				return false;
-		} else if (!products.equals(other.products))
-			return false;
-		return true;
+			return other.products == null;
+		} else return products.equals(other.products);
 	}
 
 	@Override
 	public String toString() {
 		return "Sales [paymentForm=" + paymentForm + ", products=" + products + "]";
 	}
-
 }

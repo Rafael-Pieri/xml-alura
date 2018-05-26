@@ -26,5 +26,4 @@ public class TransformerXmlToHtml {
 
 		transformer.transform(source, result);
 	}
-
 }

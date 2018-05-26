@@ -5,19 +5,17 @@ public class Product {
 	private String name;
 	private Double price;
 
-	public String getName() {
-		return name;
-	}
+    public Product() {}
 
 	public Product(String name, Double price) {
 		this.name = name;
 		this.price = price;
 	}
 
-	public Product() {
-
-	}
-
+    public String getName() {
+        return name;
+    }
+    
 	public void setName(String name) {
 		this.name = name;
 	}
@@ -54,16 +52,12 @@ public class Product {
 		} else if (!name.equals(other.name))
 			return false;
 		if (price == null) {
-			if (other.price != null)
-				return false;
-		} else if (!price.equals(other.price))
-			return false;
-		return true;
+			return other.price == null;
+		} else return price.equals(other.price);
 	}
 
 	@Override
 	public String toString() {
 		return "Product [name = " + name + ", price = " + price + "]";
 	}
-
 }
