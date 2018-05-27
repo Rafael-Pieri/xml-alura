@@ -2,7 +2,7 @@
 
 ### Overview
 This course introduces the basics of data representation using XML. 
-Within this repository we can find some examples of the mechanisms used during the course.
+In this repository we can find some examples of the mechanisms used during the course.
 
 ### Topics covered
 
