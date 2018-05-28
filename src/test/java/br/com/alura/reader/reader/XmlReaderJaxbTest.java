@@ -1,10 +1,9 @@
-package br.com.alura.reader.test;
+package br.com.alura.reader.reader;
 
 import static org.junit.Assert.assertEquals;
 
-import br.com.alura.model.Product;
-import br.com.alura.model.Sale;
-import br.com.alura.reader.XmlReaderJaxb;
+import br.com.alura.reader.model.Product;
+import br.com.alura.reader.model.Sale;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

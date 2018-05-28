@@ -1,9 +1,8 @@
-package br.com.alura.reader.test;
+package br.com.alura.reader.reader;
 
 
 import static org.junit.Assert.assertEquals;
 
-import br.com.alura.reader.TransformerXmlToHtml;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;

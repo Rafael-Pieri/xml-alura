@@ -1,4 +1,4 @@
-package br.com.alura.reader;
+package br.com.alura.reader.reader;
 
 import java.io.File;
 import java.io.StringWriter;
@@ -10,8 +10,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-import br.com.alura.model.Product;
-import br.com.alura.model.Sale;
+import br.com.alura.reader.model.Product;
+import br.com.alura.reader.model.Sale;
 
 public class XmlReaderJaxb {
 

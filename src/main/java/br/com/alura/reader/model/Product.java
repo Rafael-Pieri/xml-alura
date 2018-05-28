@@ -1,4 +1,4 @@
-package br.com.alura.model;
+package br.com.alura.reader.model;
 
 public class Product {
 

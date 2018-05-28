@@ -1,4 +1,4 @@
-package br.com.alura.reader;
+package br.com.alura.reader.reader;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

@@ -1,6 +1,6 @@
-package br.com.alura.reader;
+package br.com.alura.reader.reader;
 
-import br.com.alura.model.Product;
+import br.com.alura.reader.model.Product;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;

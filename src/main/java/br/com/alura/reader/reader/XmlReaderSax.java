@@ -1,7 +1,7 @@
-package br.com.alura.reader;
+package br.com.alura.reader.reader;
 
-import br.com.alura.handler.ProductHandler;
-import br.com.alura.model.Product;
+import br.com.alura.reader.handler.ProductHandler;
+import br.com.alura.reader.model.Product;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;

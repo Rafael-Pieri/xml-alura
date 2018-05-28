@@ -1,11 +1,10 @@
-package br.com.alura.reader.test;
+package br.com.alura.reader.reader;
 
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.junit.Assert.assertEquals;
 
-import br.com.alura.model.Product;
-import br.com.alura.reader.XmlReaderDom;
+import br.com.alura.reader.model.Product;
 import java.io.IOException;
 import java.util.List;
 import javax.xml.parsers.ParserConfigurationException;

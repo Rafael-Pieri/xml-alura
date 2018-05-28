@@ -1,4 +1,4 @@
-package br.com.alura.model;
+package br.com.alura.reader.model;
 
 import java.util.List;
 

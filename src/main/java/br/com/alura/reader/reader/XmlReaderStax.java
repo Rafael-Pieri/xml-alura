@@ -1,4 +1,4 @@
-package br.com.alura.reader;
+package br.com.alura.reader.reader;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamException;
 import javax.xml.stream.events.XMLEvent;
 
-import br.com.alura.model.Product;
+import br.com.alura.reader.model.Product;
 
 public class XmlReaderStax {
 

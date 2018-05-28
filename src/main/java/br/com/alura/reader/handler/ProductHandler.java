@@ -1,10 +1,9 @@
-package br.com.alura.handler;
+package br.com.alura.reader.handler;
 
-import br.com.alura.model.Product;
+import br.com.alura.reader.model.Product;
 import java.util.ArrayList;
 import java.util.List;
 import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class ProductHandler extends DefaultHandler {
@@ -16,7 +15,7 @@ public class ProductHandler extends DefaultHandler {
     private StringBuilder content = new StringBuilder();
 
     @Override
-    public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+    public void startElement(String uri, String localName, String qName, Attributes attributes) {
         if (qName.equals("product")) {
             product = new Product();
         }
@@ -25,7 +24,7 @@ public class ProductHandler extends DefaultHandler {
     }
 
     @Override
-    public void characters(char[] ch, int start, int length) throws SAXException {
+    public void characters(char[] ch, int start, int length) {
         content.append(new String(ch, start, length));
     }
 
