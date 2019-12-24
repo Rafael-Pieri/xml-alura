@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/rafael-pieri/xml-alura.svg?branch=master)](https://travis-ci.com/rafael-pieri/xml-alura)
+
 ## Java and XML: integration, parsing and validation
 
 ### Overview
